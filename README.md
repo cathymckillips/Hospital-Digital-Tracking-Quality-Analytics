@@ -776,3 +776,12 @@ By combining tracking governance, SQL-based validation, automated data-quality r
 All data contained in this repository is **100% synthetic** and was generated specifically for this portfolio project.
 
 No real patients, healthcare records, PHI, PII, proprietary organizational data, or production Amplitude data are included.
+
+---
+
+# Author
+
+**Catherine McKillips**
+
+Data & Business Intelligence Analyst
+
