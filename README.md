@@ -367,7 +367,7 @@ The Power BI report contains **five analytical pages**, progressing from trackin
 
 ## Page 1 — Tracking Health Overview
 
-![Tracking Health Overview](images/01_tracking_health.png)
+![Tracking Health Overview](Images/01_tracking_health.png)
 
 ### Purpose
 
@@ -399,7 +399,7 @@ This provides stakeholders with an immediate indication of whether tracking prob
 
 ## Page 2 — Event Coverage Audit
 
-![Event Coverage Audit](images/02_event_coverage.png)
+![Event Coverage Audit](Images/02_event_coverage.png)
 
 ### Purpose
 
@@ -433,7 +433,7 @@ The detailed audit view allows analysts to identify gaps between documented spec
 
 ## Page 3 — Data Quality Exceptions
 
-![Data Quality Exceptions](images/03_data_quality_exceptions.png)
+![Data Quality Exceptions](Images/03_data_quality_exceptions.png)
 
 ### Purpose
 
@@ -464,7 +464,7 @@ This page demonstrates that data quality is not simply about identifying bad rec
 
 ## Page 4 — Patient Digital Journey
 
-![Patient Digital Journey](images/04_patient_digital_journey.png)
+![Patient Digital Journey](Images/04_patient_digital_journey.png)
 
 ### Purpose
 
@@ -513,7 +513,7 @@ This helps identify where patients encounter friction in the digital scheduling 
 
 ## Page 5 — Tracking Trend & Anomaly Monitoring
 
-![Tracking Trend & Anomaly Monitoring](images/05_anomaly_monitoring.png)
+![Tracking Trend & Anomaly Monitoring](Images/05_anomaly_monitoring.png)
 
 ### Purpose
 
