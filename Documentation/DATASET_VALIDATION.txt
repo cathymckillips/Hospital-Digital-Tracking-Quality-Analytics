@@ -1,0 +1,9 @@
+Synthetic dataset validation
+Amplitude rows: 71,979
+Tracking log rows: 73
+Governed standards: 36
+Raw noncanonical/undocumented Amplitude event rows: 858
+Missing User_ID rows: 417
+Seeded invalid device rows: 55
+Future timestamp rows: 35
+Extra duplicate tracking-ID occurrences: 8

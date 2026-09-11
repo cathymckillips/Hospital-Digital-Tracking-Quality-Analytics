@@ -1,0 +1,64 @@
+-- Power BI / DAX measure suggestions (create in Power BI, not SQL)
+
+Total Events =
+COUNTROWS('vw_AmplitudeEvents')
+
+DQ Exceptions =
+COUNTROWS('vw_TrackingDQExceptions')
+
+Critical Exceptions =
+CALCULATE(
+    [DQ Exceptions],
+    'vw_TrackingDQExceptions'[Severity] = "Critical"
+)
+
+High Exceptions =
+CALCULATE(
+    [DQ Exceptions],
+    'vw_TrackingDQExceptions'[Severity] = "High"
+)
+
+Events with Issues =
+DISTINCTCOUNT('vw_TrackingDQExceptions'[Event_Name])
+
+Specification Match % =
+DIVIDE(
+    CALCULATE(
+        COUNTROWS('vw_EventCoverage'),
+        'vw_EventCoverage'[Coverage_Status] = "Matched"
+    ),
+    COUNTROWS('vw_EventCoverage')
+)
+
+Schedule Click Sessions =
+SUM('vw_DigitalJourneyDaily'[Schedule_Click_Sessions])
+
+Scheduling Started Sessions =
+SUM('vw_DigitalJourneyDaily'[Scheduling_Started_Sessions])
+
+Appointments Completed =
+SUM('vw_DigitalJourneyDaily'[Appointment_Completed_Sessions])
+
+Scheduling Completion % =
+DIVIDE(
+    [Appointments Completed],
+    [Scheduling Started Sessions]
+)
+
+Schedule Click to Appointment % =
+DIVIDE(
+    [Appointments Completed],
+    [Schedule Click Sessions]
+)
+
+Abandoned Sessions =
+SUM('vw_DigitalJourneyDaily'[Abandoned_Sessions])
+
+Abandonment % =
+DIVIDE(
+    [Abandoned Sessions],
+    [Scheduling Started Sessions]
+)
+
+Event Variance % =
+AVERAGE('vw_DailyEventHealth'[Variance_Pct])
