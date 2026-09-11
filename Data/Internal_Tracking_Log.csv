@@ -1,0 +1,74 @@
+Tracking_ID,Tracked_Event_Name,Page_Name,Element_Name,Tracking_Status,Owner,Implementation_Date,Last_Validated_Date,Notes,Platform
+TRK0001,homepage_view,home,page,Active,Digital Experience,2026-01-15,2026-08-20,Production,Web
+TRK0002,find_care_click,home,find_care_cta,Active,Digital Experience,2026-01-15,2026-08-20,,Web
+TRK0003,findCareClick,home,find_care_cta,Active,Digital Experience,2024-09-18,2026-08-20,Legacy,Web
+TRK0004,provider_search,find_care,provider_search,Active,Digital Experience,2026-01-15,2026-08-20,,Web
+TRK0005,provider-search,find_care,Schedule Now,Active,Digital Experience,2026-02-14,2026-04-01,Needs cleanup,
+TRK0006,PROVIDER_SEARCH,find_care,provider_search,Active,Digital Experience,2024-09-18,2026-08-20,,
+TRK0007,provider_serach,locations,provider_search,Active,Digital Experience,2026-02-14,2026-04-01,,Mobile Web
+TRK0008,provider_filter_click,find_care,provider_filter,Active,Digital Experience,2026-01-15,2026-08-20,,Web
+TRK0009,provider_profile_view,provider_profile,page,Active,Digital Experience,2026-01-15,2026-08-20,Needs cleanup,Web
+TRK0010,Provider Profile View,provider_profile,page,Old,Digital Experience,2026-06-01,2026-04-01,Needs cleanup,Web
+TRK0011,providerProfileView,Find A Doctor,Schedule Now,Active,Digital Experience,2026-06-01,,Created during redesign,Web
+TRK0012,schedule_click,provider_profile,schedule_cta,Active,Patient Access,2026-01-15,2026-08-20,Duplicate?,Web
+TRK0013,ScheduleClick,locations,schedule_cta,Active,Patient Access,,,Needs cleanup,Web
+TRK0014,schedule now click,provider_profile,cta,Active,Patient Access,2024-09-18,2026-07-15,Verify with dev,Website
+TRK0015,scheduling_started,scheduling,workflow_start,Active,Patient Access,2026-01-15,2026-08-20,Created during redesign,Web
+TRK0016,start_scheduling,scheduling,workflow_start,Active,Patient Access,2025-11-02,2026-07-15,old event still in sheet,Website
+TRK0017,Scheduling Started,virtual_care,workflow_start,Active,Patient Access,,2026-07-15,Duplicate?,Mobile Web
+TRK0018,location_selected,scheduling,location_selector,Active,Patient Access,2026-01-15,2026-08-20,,Web
+TRK0019,appointment_type_selected,scheduling,appointment_type,Active,Patient Access,2026-01-15,2026-08-20,Duplicate?,Web
+TRK0020,date_selected,scheduling,date_selector,Active,Patient Access,2026-01-15,2026-08-20,Owner TBD,Web
+TRK0021,time_selected,scheduling,time_selector,Active,Patient Access,2026-01-15,2026-08-20,,Web
+TRK0022,insurance_step_view,scheduling,insurance_step,Active,Patient Access,2026-01-15,2026-08-20,Created during redesign,Web
+TRK0023,appointment_completed,scheduling,confirmation,Active,Patient Access,2026-01-15,2026-08-20,old event still in sheet,Web
+TRK0024,appointment-complete,scheduling,confirmation,Active,Corporate Digital,2026-02-14,2026-04-01,Created during redesign,Website
+TRK0025,schedule_abandoned,scheduling,workflow_exit,Active,Patient Access,2026-01-15,2026-08-20,Duplicate?,Web
+TRK0026,provider_call_click,provider_profile,phone_link,Active,Digital Experience,2026-01-15,2026-08-20,Legacy,Web
+TRK0027,call_provider,provider_profile,phone_link,Active,Digital Experience,2024-09-18,,Needs cleanup,Web
+TRK0028,Provider Call Click,Provider Page ,phone_link,Deprecated,Digital Experience,,2026-08-20,Duplicate?,Web
+TRK0029,provider-phone-click,provider_profile,phone_link,Active,Digital Experience,,2026-04-01,,
+TRK0030,directions_click,location,directions_link,Active,Digital Experience,2026-01-15,2026-08-20,Created during redesign,Web
+TRK0031,location_search,locations,location_search,Active,Digital Experience,2026-01-15,2026-08-20,Needs cleanup,Web
+TRK0032,service_line_view,service_line,page,Active,Marketing Analytics,2026-01-15,2026-08-20,Legacy,Web
+TRK0033,Service Line View,service_line,page,Active,Marketing Analytics,2025-11-02,2026-04-01,Needs cleanup,
+TRK0034,campaign_landing_view,campaign,page,Active,Marketing Analytics,2026-01-15,2026-08-20,Owner TBD,Web
+TRK0035,cta_click,various,cta,Active,Digital Experience,2026-01-15,2026-08-20,old event still in sheet,Web
+TRK0036,button_click,urgent_care,location_selector,Active,Digital Experience,2025-11-02,2026-04-01,Owner TBD,Web
+TRK0037,CTA Click,virtual_care,page,Active,Marketing Analytics,2024-09-18,2026-04-01,Legacy,Website
+TRK0038,generic_cta_click,various,cta,Active,Digital Experience,2026-02-14,2026-07-15,,
+TRK0039,mychart_click,home,mychart_link,Active,Digital Experience,2026-01-15,2026-08-20,Legacy,Web
+TRK0040,urgent_care_checkin_click,urgent_care,checkin_cta,Active,Patient Access,2026-01-15,2026-08-20,old event still in sheet,Web
+TRK0041,virtual_care_click,virtual_care,virtual_care_cta,Active,Patient Access,2026-01-15,2026-08-20,Production,Web
+TRK0042,Virtual Care Click,urgent_care,schedule_cta,Active,Patient Access,2026-06-01,2026-04-01,Created during redesign,
+TRK0043,virtual-care-click,virtual_care,virtual_care_cta,Active,Patient Access,2026-06-01,2026-07-15,Production,
+TRK0044,faq_expand,various,faq,Active,Digital Experience,2026-01-15,2026-08-20,Production,Web
+TRK0045,form_start,forms,form,Active,Digital Experience,2026-01-15,2026-08-20,old event still in sheet,Web
+TRK0046,form_submit,forms,form,Active,Digital Experience,2026-01-15,2026-08-20,Legacy,Web
+TRK0047,billing_pay_click,billing,pay_bill_cta,Active,Digital Experience,2026-01-15,2026-08-20,Production,Web
+TRK0048,medical_records_click,patient_resources,medical_records_link,Active,Digital Experience,2026-01-15,2026-08-20,,Web
+TRK0049,careers_click,home,careers_link,Active,Corporate Digital,2026-01-15,2026-08-20,,Web
+TRK0050,donate_click,foundation,donate_cta,Active,Foundation,2026-01-15,2026-08-20,Created during redesign,Web
+TRK0051,newsletter_signup,newsletter,form,Active,Marketing Analytics,2026-01-15,2026-08-20,Needs cleanup,Web
+TRK0052,insurance_check_click,insurance,insurance_checker,Active,Patient Access,2026-01-15,2026-08-20,Verify with dev,Web
+TRK0053,insurance-check,insurance,insurance_checker,Active,Patient Access,2026-06-01,,Verify with dev,
+TRK0054,symptom_checker_start,symptom_checker,start_cta,Deprecated,Digital Experience,2026-01-15,2026-08-20,Needs cleanup,Web
+TRK0055,old_find_doctor_click,home,legacy_find_doctor,Deprecated,Digital Experience,2026-01-15,2026-08-20,old event still in sheet,Web
+TRK0056,covid_banner_click,home,covid_banner,Deprecated,Marketing Analytics,2026-01-15,2026-08-20,Verify with dev,Web
+TRK0057,legacy_schedule_now,provider_profile,schedule_now,Deprecated,Patient Access,2026-01-15,2026-08-20,Production,Web
+TRK0058,btn_click_23,provider_profile,button_23,Active,,2026-05-01,,Unknown button from redesign,Web
+TRK0059,FindDoctor,home,find_doctor,Active,Digital Experience,2026-05-01,,Legacy naming,Web
+TRK0060,provider_clk,find_care,provider_result,production,Digital Experience,2026-05-01,,Unclear naming,Web
+TRK0061,scheduleNow,provider_profile,Schedule Now,Active,Patient Access,2026-05-01,,Unmapped,Web
+TRK0062,homepage_button_click,home,,Needs Review,,2026-05-01,,Generic,Web
+TRK0063,book_appt_click,provider_profile,book_button,Active,Patient Access,2026-05-01,,Potential duplicate of schedule_click,Web
+TRK0064,locationCardClick,locations,location_card,Active,Digital Experience,2026-05-01,,Camel case,Web
+TRK0065,nav_click,home,nav,Active,,2026-05-01,,Too generic,Web
+TRK0039,mychart_click,home,mychart_link,Active,Digital Experience,2026-01-15,2026-08-20,Legacy,Web
+TRK0037,CTA Click,virtual_care,page,Active,Marketing Analytics,2024-09-18,2026-04-01,Legacy,Website
+TRK0053,insurance-check,insurance,insurance_checker,Active,Patient Access,2026-06-01,,Verify with dev,
+TRK0049,careers_click,home,careers_link,Active,Corporate Digital,2026-01-15,2026-08-20,,Web
+TRK0021, time_selected ,scheduling,time_selector,Active,Patient Access,2026-01-15,2026-08-20,,Web
+TRK0002,find_care_click,home,find_care_cta,Active,Digital Experience,2026-01-15,2026-08-20,,Web
+TRK0021,time_selected,scheduling,time_selector,Active,Patient Access,2026-01-15,2026-08-20,,Web
+TRK0001,homepage_view,home,page,Active,Digital Experience,2026-01-15,2026-08-20,Production,Web

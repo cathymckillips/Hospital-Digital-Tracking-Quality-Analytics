@@ -1,0 +1,7 @@
+Release_ID,Release_Timestamp,Release_Name,Affected_Area,Technical_Owner,Release_Status,Notes
+REL-2607-01,2026-07-08 02:00:00,Provider Profile redesign,provider_profile,Digital Platform,Completed,Changed CTA component
+REL-2607-02,2026-07-21 01:00:00,Scheduling widget v3,scheduling,Patient Access Tech,Completed,New time slot selector
+REL-2608-01,2026-08-04 02:00:00,Mobile navigation refresh,home,Digital Platform,Completed,Find Care nav changed
+REL-2608-02,2026-08-18 01:30:00,Scheduling JS bundle update,scheduling,Patient Access Tech,Completed,Tracking regression later identified
+REL-2608-03,2026-08-25 02:30:00,Provider card component update,find_care,Digital Platform,Completed,Provider result event renamed
+REL-2609-01,2026-09-02 02:00:00,Insurance step rollout,scheduling,Patient Access Tech,Completed,New insurance page added

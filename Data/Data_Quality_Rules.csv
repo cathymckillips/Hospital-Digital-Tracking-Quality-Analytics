@@ -1,0 +1,13 @@
+DQ_Rule,Issue,Severity,Category,Detection_Logic,Recommended_Action
+DQ01,Observed Amplitude event not in governed standards,High,Governance,Amplitude event name has no match in Tracking_Event_Standards,Review and map legitimate aliases; retire meaningless events.
+DQ02,Documented active event has no Amplitude activity,High,Coverage,Active governed event has zero observed events,Validate implementation; confirm event is still required.
+DQ03,Duplicate Tracking_ID,High,Internal Log,Same Tracking_ID appears more than once,Assign unique IDs and deduplicate tracking log.
+DQ04,Missing tracking owner,Medium,Stewardship,Tracking log Owner is blank,Assign accountable business/technical owner.
+DQ05,Nonstandard event naming,Medium,Naming,Raw tracking name differs from canonical event name,Adopt canonical snake_case naming and alias map.
+DQ06,Missing required event property,High,Completeness,Required user/page/element/device property is missing,Fix instrumentation and required-property validation.
+DQ07,Deprecated event still firing,High,Lifecycle,Deprecated governed event continues to appear in Amplitude,Remove old instrumentation or update implementation.
+DQ08,Invalid service line,Medium,Domain,Service line cannot be standardized,Correct source values or extend approved mapping.
+DQ09,Potential duplicate event firing,Critical,Instrumentation,Same user/session/event observed within one second,Investigate duplicate listener or repeated firing.
+DQ10,Future timestamp,High,Validity,Event timestamp exceeds project as-of date,Correct client/server clock or timestamp parsing.
+DQ11,Invalid device category,Medium,Domain,Device cannot map to Mobile/Desktop/Tablet,Standardize source device taxonomy.
+DQ12,Active internal log event not governed,High,Governance,Internal tracking entry has no governed definition,"Define, map, or retire event before reporting."
